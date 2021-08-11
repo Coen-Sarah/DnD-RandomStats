@@ -1,0 +1,17 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
+*{
+    -fx-font-size: 12pt;
+    -fx-font-family: 'Homemade Apple Regular', cursive;
+    -fx-base: rgb(173, 138, 99);
+}
+.root{
+    -fx-background-image: url("sj-objio-XFWiZTa2Ub0-unsplash.jpg");
+    -fx-background-size: cover;
+}
+.button{
+     -fx-background-color: linear-gradient(rgb(214, 189, 161), rgb(179, 147, 111));
+     -fx-border-radius: 5px;
+     -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
